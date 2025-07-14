@@ -1,0 +1,9 @@
+node_modules/
+dist/
+public/*.svg
+.env
+*.log
+.DS_Store
+.vscode/
+README.md
+backend/README.md

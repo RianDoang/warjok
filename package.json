@@ -1,0 +1,20 @@
+{
+  "name": "warjok_tailwind",
+  "version": "1.0.0",
+  "description": "- public/ # Static files (images, favicon, etc)\r - dist/ # Build output\r - src/\r   - styles/ # Custom CSS/Tailwind files\r   - components/ # Reusable UI components\r   - assets/ # Project assets (images, fonts)\r   - pages/ # Page-level components\r   - utils/ # Utility functions\r   - input.css # Main Tailwind CSS entry\r - index.html # Main HTML file",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/styles/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14"
+  }
+}
